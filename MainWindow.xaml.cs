@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -33,9 +34,31 @@ namespace RBCK
         {
             InitializeComponent();
 
-            
+            //Check boxes and radio buttons both return a type of 
+            // ANSWER: TRUE / FALSE 
+
+            //How what property do you use to get the true / false value from your individual check boxes / radio buttons
+            // ANSWER: .ToString();
+
+            //When using check boxes you need to use a ____ for each check box
+            // ANSWER: 
+
+
+            //When working with radio buttons you need an ____ / _____ / _____ structure
+            //ANSWER: If, Else If, Else Structure. 
+
+            //You need to _______ together radio buttons, otherwise they may not work properly
+            // ANSWER: 
+
+
+            //You can use a ________ layout to accomplish this
+            //ANSWER: Canvas 
+
+
+
+
         }
-        
+
         private void btnPizzaSize_Click(object sender, RoutedEventArgs e)
         {
             // Radio Buttons always return True or False  - Booleans 
