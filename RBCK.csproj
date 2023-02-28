@@ -7,4 +7,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\School\Programming 122\RadioButtonsCheckBox.cs" Link="RadioButtonsCheckBox.cs" />
+  </ItemGroup>
+
 </Project>
